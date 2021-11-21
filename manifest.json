@@ -7,7 +7,7 @@
         "default_popup": "popup.html"
     },
     "content_scripts": [{
-        "matches": ["https://www.youtube.com/*"],
+        "matches": ["https://www.youtube.com/*", "https://instagram.com/*"],
         "css": ["styles.css"]
       }
     ],
